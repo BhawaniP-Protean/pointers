@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+  int a=10; here we asasign a value to a
+  int *p=&a;  // here it is a pointer to variable ... 1 level pionter hold the 0 level value
+  int **q=&p;  // here it is a pointer to pointer to variable ...2 level pointer hold the 1 level address of pointer variable  
+  int ***r=&q;  // here it is a pointer to pointer to pointer to variable  .... 3 level pinter hold the the value of of 2 level address of pointer variable 
+
+  printf("a=%d %d %d %d",a,*p,**q,***r);  // here we get 10 10 10 10 
+}
