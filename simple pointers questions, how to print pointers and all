@@ -1,0 +1,20 @@
+// '&'operator is called reference operator or address of 
+// '*' operator is called dereference operator or indirection operator
+
+#include<stdio.h>
+int main(){
+int a=10,b=20;
+int *p,*q;
+p=&a;
+q=&b;
+printf("value of a= %d \n",a);
+printf("a= %d\n",*p);
+printf("the address of a is %x\n",p);
+printf("the address of p is %x\n",&p);
+
+printf("value of b=%d\n",b);
+printf("b=%d\n",*q);
+printf("the address of b is %x\n",q);
+printf("the address of q is %x\n",&q);
+
+}
