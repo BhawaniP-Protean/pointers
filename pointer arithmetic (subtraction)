@@ -9,6 +9,16 @@ int main(){
 
     printf("%d\n",d);
     printf("%d\n",q);
+    printf("%d",*q);
+
 
 
   }
+  
+  
+  ////here is the output////
+  
+ 3  //element between these two pointer
+6356708  // give address
+20   //give the element value
+  
