@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int a[5]={10,20,30,40,50};
+    int *p=&a[0];
+    int *q=&a[3];
+    int d;
+    d=q-p;  // it will give 3.. means element between this two pointer.
+     q=q-2;  // it will give the pointer address.assume q have address 1012, 1012-2*4=1004. it will give the address
+
+    printf("%d\n",d);
+    printf("%d\n",q);
+
+
+  }
